@@ -185,8 +185,9 @@ header {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        
         h1 {
-            font-size: 48px;
+            font-size: 44px;
             font-family: 'Dosia', sans-serif;
             font-weight: 300;
         }
@@ -205,6 +206,20 @@ header {
                 background-color: #057A46;
                 padding: 14px 24px;
                 border-radius: 4px;
+        }
+
+        .down-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img {
+                width: 45px;
+                border-radius: 50%;
+                height: 45px;
+                background-color: #fff;
+                margin-top: 70px;
+            }
         }
     }
 }
@@ -286,12 +301,10 @@ header {
 }
 
 #how-it-works {
-    border-bottom: 1px solid #d7d7d7;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 #info {
-    border-bottom: 1px solid #d7d7d7;
-
 
     .info-background {
         background-image: url("./images/gesture_desktop.png");
@@ -338,6 +351,134 @@ header {
             font-size: 32px;
             margin-bottom: 30px;
             margin-top: 50px;
+        }
+    }
+}
+
+.wallet-container {
+    background-color: #f7f7f7;
+}
+
+.wallet-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+
+    .wallet-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3 {
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Dosia', sans-serif;
+        }
+
+        h4 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        button {
+            width: 100%;
+            color: #fff;
+            font-weight: 700;
+            background-color: #057A46;
+            padding: 14px 24px;
+            border-radius: 4px;
+            margin-top: 35px;
+        }
+    }
+}
+
+#carousel {
+    .carousel-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .carousel-heading {
+            text-align: center;
+            padding: 30px;
+
+            h2 {
+                font-size: 32px;
+                font-family: 'Dosia', sans-serif;
+                font-weight: 400;
+                padding: 10px;
+            }
+        }
+
+        .carousel-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .carousel-left {
+                border-radius: 50%;
+                border: 1px solid #057A46;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    transform: rotate(90deg);
+                    padding: 10px;
+                }
+            }
+
+            .carousel-right {
+                border-radius: 50%;
+                border: 1px solid #057A46;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    transform: rotate(-90deg);
+                    padding: 10px;
+                }
+            }
+        }
+
+        .carousel-card {
+            position: relative;
+            width: 260px;
+            height: 315px;
+
+            .carousel-card-badge {
+                background-color: #14b86e;
+                color: white;
+                text-transform: uppercase;
+                width: 50px;
+                text-align: center;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+
+            .gradient-bg {
+                position: absolute;
+                background: linear-gradient(0deg, rgba(0,0,0,0.8) 5%, rgba(255,255,255,0) 100%);
+                width: 100%;
+                height: 100%;
+            }
+
+            .carousel-card-heading {
+                position: absolute;
+                bottom: 0;
+                padding: 10px;
+                color: #fff;
+
+                h3 {
+                    font-size: 26px;
+                    font-family: 'Dosia', sans-serif;
+                    font-weight: 300;
+                }
+            }
         }
     }
 }
