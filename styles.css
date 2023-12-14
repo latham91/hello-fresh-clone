@@ -179,6 +179,9 @@ header nav .nav-right a:hover {
   padding: 14px 24px;
   border-radius: 4px;
 }
+.hero-container .hero-heading a:hover {
+  background-color: #05864c;
+}
 .hero-container .hero-heading .down-button {
   display: flex;
   justify-content: center;
@@ -440,4 +443,91 @@ header nav .nav-right a:hover {
   font-size: 26px;
   font-family: "Dosia", sans-serif;
   font-weight: 300;
+}
+
+#cta {
+  background-image: url("./images/bottom_banner_desktop.jpg");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+#cta .cta-heading {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  gap: 20px;
+}
+#cta .cta-heading h2 {
+  font-size: 44px;
+  font-weight: 400;
+}
+#cta .cta-heading p {
+  font-size: 20px;
+  font-weight: 400;
+}
+#cta .cta-heading .cta-button {
+  text-align: center;
+}
+#cta .cta-heading .cta-button button {
+  color: #fff;
+  font-weight: 700;
+  background-color: #05864c;
+  padding: 14px 24px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: none;
+}
+#cta .cta-heading .cta-button button:hover {
+  background-color: #057A46;
+}
+
+footer {
+  padding: 50px;
+}
+footer .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+footer .footer-container .download-container h4 {
+  color: #057A46;
+  margin-bottom: 10px;
+}
+footer .footer-container .download-container p {
+  margin-bottom: 10px;
+}
+footer .footer-container .download-container .download-image-container {
+  display: flex;
+  gap: 20px;
+}
+footer .footer-container .download-container .download-image-container .download-image-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+footer .footer-list {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-list h4 {
+  margin-bottom: 10px;
+}
+footer .footer-list a {
+  color: #05864c;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+footer .footer-list .payment-images {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 160px;
+}
+footer .footer-list .payment-images img {
+  width: 56px;
+  height: 56px;
 }/*# sourceMappingURL=styles.css.map */
