@@ -388,10 +388,15 @@ header {
             width: 100%;
             color: #fff;
             font-weight: 700;
-            background-color: #057A46;
+            background-color: #05864c;
             padding: 14px 24px;
             border-radius: 4px;
             margin-top: 35px;
+            border: none;
+
+            &:hover {
+                background-color: #057A46;
+            }
         }
     }
 }
@@ -424,6 +429,7 @@ header {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
 
                 img {
                     transform: rotate(90deg);
@@ -437,6 +443,7 @@ header {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
 
                 img {
                     transform: rotate(-90deg);
@@ -449,6 +456,7 @@ header {
             position: relative;
             width: 260px;
             height: 315px;
+            cursor: pointer;
 
             .carousel-card-badge {
                 background-color: #14b86e;

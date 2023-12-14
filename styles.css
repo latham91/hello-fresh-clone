@@ -339,10 +339,14 @@ header nav .nav-right a:hover {
   width: 100%;
   color: #fff;
   font-weight: 700;
-  background-color: #057A46;
+  background-color: #05864c;
   padding: 14px 24px;
   border-radius: 4px;
   margin-top: 35px;
+  border: none;
+}
+.wallet-wrapper .wallet-right button:hover {
+  background-color: #057A46;
 }
 
 #carousel .carousel-wrapper {
@@ -370,6 +374,7 @@ header nav .nav-right a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 #carousel .carousel-wrapper .carousel-container .carousel-left img {
   transform: rotate(90deg);
@@ -381,6 +386,7 @@ header nav .nav-right a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 #carousel .carousel-wrapper .carousel-container .carousel-right img {
   transform: rotate(-90deg);
@@ -390,6 +396,7 @@ header nav .nav-right a:hover {
   position: relative;
   width: 260px;
   height: 315px;
+  cursor: pointer;
 }
 #carousel .carousel-wrapper .carousel-card .carousel-card-badge {
   background-color: #14b86e;
