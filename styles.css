@@ -200,6 +200,8 @@ header nav .nav-right a:hover {
 }
 
 .instagram-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -530,4 +532,43 @@ footer .footer-list .payment-images {
 footer .footer-list .payment-images img {
   width: 56px;
   height: 56px;
+}
+
+@media all and (max-width: 1000px) {
+  .links {
+    display: none !important;
+  }
+  .nav-left {
+    height: 56px;
+  }
+  .offer-container {
+    display: none;
+  }
+  .instagram-card-container {
+    flex-wrap: wrap;
+  }
+  .info-container {
+    flex-wrap: wrap;
+  }
+  .info-left {
+    text-align: center;
+  }
+  .app-list {
+    justify-content: center;
+  }
+  .wallet-wrapper {
+    flex-wrap: wrap;
+  }
+  .wallet-right {
+    align-items: center;
+  }
+  #carousel {
+    display: none;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+  }
+  .download-container {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=styles.css.map */
