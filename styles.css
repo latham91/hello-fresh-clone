@@ -353,6 +353,23 @@ header nav .nav-right a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+#carousel .carousel-wrapper .carousel-button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#carousel .carousel-wrapper .carousel-button button {
+  color: #fff;
+  font-weight: 700;
+  background-color: #05864c;
+  padding: 14px 24px;
+  border-radius: 4px;
+  margin-top: 35px;
+  border: none;
+}
+#carousel .carousel-wrapper .carousel-button button:hover {
+  background-color: #057A46;
+}
 #carousel .carousel-wrapper .carousel-heading {
   text-align: center;
   padding: 30px;
