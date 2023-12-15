@@ -8,7 +8,7 @@ HelloFresh is a German food delivery service that provides users with fresh, pre
 
 ### What was the challenge?
 
-The week 1 challenge of the Code Nation: Master Software Bootcamp was to pick a website and clone it using HTML, CSS, and JavaScript. However, in this project, I decided to focus solely on HTML and CSS (Sass) without integrating JavaScript.
+The week 1 challenge of the Code Nation: Master Software Bootcamp was to pick a website and clone it using HTML & CSS.
 
 ### How did I complete the challenge?
 
