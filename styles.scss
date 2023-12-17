@@ -520,10 +520,12 @@ header {
 #cta {
     background-image: url("./images/bottom_banner_desktop.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     margin-top: 30px;
+    background-size: cover;
 
     .cta-heading {
-        max-width: 1200px;
+        min-width: 1200px;
         margin: 0 auto;
         display: flex;
         justify-content: center;
